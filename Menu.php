@@ -11,7 +11,7 @@
     <header>
         <?php include "Include/top.php" ?>
     </header>
-    <div class="container">
+    <section class="container">
         <?php include "Include/left.php" ?>
     <main>
         <div class="main-container">
@@ -85,6 +85,6 @@
         </div>
         </div>
     </main>
-    </div>
+    </section>
 </body>
 </html>

@@ -69,12 +69,12 @@
     border-bottom: 0.2rem solid brown;
     padding: 30px;
 }
-.menu-item a{
-    display: flex;
-}
 .menu-item-row{
     display: flex;
     justify-content: space-around;
+}
+.menu-item a{
+    display: flex;
 }
 .category_name{
     color: brown;
@@ -85,6 +85,10 @@
     font-size: large;
     margin: 2rem;
     color: black;
+}
+.menu-item:hover  .image img{
+    transform: scale(1.5);
+    transition: 0.3s;
 }
 .footer{
     text-align: center;
